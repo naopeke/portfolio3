@@ -11,6 +11,7 @@ https://ui.aceternity.com/components/tailwindcss-buttons
 https://react-icons.github.io/react-icons/  
 https://ui.aceternity.com/components/floating-navbar  
 https://ui.aceternity.com/components/bento-grid  
+https://cssgradient.io/  
 
 ## Getting Started
 
