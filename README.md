@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+##
+https://ui.aceternity.com/components/spotlight  
+https://ui.aceternity.com/components/grid-and-dot-backgrounds  
+https://www.npmjs.com/package/next-themes  
+https://ui.shadcn.com/docs/dark-mode/next  
+https://ui.aceternity.com/components/text-generate-effect  
+https://ui.aceternity.com/components/animated-tooltip  
+https://ui.aceternity.com/components/tailwindcss-buttons  
+https://react-icons.github.io/react-icons/  
+https://ui.aceternity.com/components/floating-navbar  
+https://ui.aceternity.com/components/bento-grid  
+
 ## Getting Started
 
 First, run the development server:
