@@ -68,6 +68,34 @@ export const navItems = [
       spareImg: "",
     },
   ];
+
+  export const technologies = [
+    {
+      title: "Front-End",
+      description: "Angular, HTML, CSS, SASS, JavaScript, TypeScript, React, Bootstrap, Tailwind, Angular Material, Swiper, Stripe",
+    },
+    {
+      title: "Back-End",
+      description: "Node.js, Express,js, Postman",
+    },
+    {
+      title: "Database",
+      description: "mySQL, postgreSQL, MongoDB",
+    },
+    {
+      title: "Deployment",
+      description: "Amazon Web Services, "
+    },
+    {
+      title: "Other Tools",
+      description: "Figma, Jira, "
+    },
+    {
+      title: "Methology",
+      description: "Agile, Scrum"
+    },
+
+  ]
   
   export const projects = [
     {
