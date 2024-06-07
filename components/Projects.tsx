@@ -6,10 +6,10 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const Projects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="projects">
       <h1 className="heading">
       My Latest Works: Pushing the Boundaries of {' '} 
-      <span className="text-purple">Web and Application</span>
+      <span className="text-[#4cceac]">Web and Application</span>
       </h1>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
@@ -47,7 +47,7 @@ const Projects = () => {
                   </div>
 
                   <div className="flex justify-center items-center">
-                    <p className="flex lg:text-xl md:text-xs text-sm hover:text-purple transition-colors duration-400" >Check Website</p>
+                    <p className="flex lg:text-xl md:text-xs text-sm hover:text-[#4cceac] transition-colors duration-400" >Check Website</p>
                     <FaLocationArrow className="ms-3"/>
                   </div>
                 </div>

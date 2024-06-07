@@ -13,7 +13,7 @@ function MagicButton({title, icon, position, handleClick, otherClasses}:MagicBut
 
   return (
     <button className="p-[3px] relative w-full md:w-75" onClick={handleClick}>
-    <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
+    <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-teal-500 rounded-lg" />
     <div className="gap-2 uppercase flex relative px-8 py-2 bg-black rounded-[6px] group transition duration-200 text-white hover:bg-transparent">
       {position === 'left' && icon }
       {title}
