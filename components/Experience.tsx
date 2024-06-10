@@ -7,7 +7,7 @@ function Experience() {
   return (
     <div className="py-20" id="experience">
       <h1 className="heading">
-        My Strengths:{' '}<span className="text-[#4cceac]">A Symphony of Skills</span>
+        My Strengths:{' '} A <span className="text-[#4cceac]">Symphony </span>of Skills
       </h1>
 
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">

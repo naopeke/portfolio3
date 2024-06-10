@@ -4,17 +4,18 @@ import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 
-const Process = () => {
+export function Process(){
+// const Process = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-[#4cceac]">Development Process</span>
+        My <span className="text-[#4cceac]">Development </span>Process
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card 
           title="Planning & Design" 
           icon={<AceternityIcon order="First Step" />}
-          description="afeagkpaehfewafeawfewafeawfwageaawfewafewafweafewafwefwfewafafega"
+          description="Figma"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -25,7 +26,7 @@ const Process = () => {
         <Card 
           title="Development & Progress Update" 
           icon={<AceternityIcon order="Second Step" />}
-          description="afeagkpaehga"
+          description=""
           >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -43,7 +44,7 @@ const Process = () => {
         <Card 
           title="Testing & Deployment" 
           icon={<AceternityIcon order="Final Step" />}
-          description="afeagkpaehawfewagewaghraehgrwagewagewagega"
+          description="Jasmine, Karma, Mocha, Chai, AWS"
 
           >
           <CanvasRevealEffect
@@ -99,8 +100,7 @@ const Card = ({
         <h2 className="dark:text-white text-3xl text-center opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
           {title}
         </h2>
-        <p className="dark:text-white text-sm text-center opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black txt-sm mt-4 group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 break-words">
-          {description}
+<p className="dark:text-white text-sm text-center opacity-0 group-hover/canvas-card:opacity-100 z-10 text-black txt-sm mt-4 group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 break-words whitespace-wrap">          {description}
         </p>
       </div>
     </div>

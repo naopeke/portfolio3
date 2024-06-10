@@ -1,12 +1,12 @@
 // import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloadingNav";
-import Image from "next/image";
 import Cards from "@/components/Cards";
 import Projects from "@/components/Projects";
 import { navItems } from "@/data";
 import Experience from "@/components/Experience";
 import Process from "@/components/Process";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +22,7 @@ export default function Home() {
         <Projects />
         <Experience />
         <Process />
+        <Footer />
       </div>
     </main>
   );
