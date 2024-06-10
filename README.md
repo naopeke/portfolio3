@@ -14,6 +14,7 @@ https://ui.aceternity.com/components/bento-grid
 https://ui.aceternity.com/components/moving-border  
 https://ui.aceternity.com/components/canvas-reveal-effect  
 https://cssgradient.io/  
+https://www.npmjs.com/package/next-images  
 
 ## Getting Started
 

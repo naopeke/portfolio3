@@ -2,6 +2,7 @@ import React from 'react'
 import { projects } from '@/data'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
+import Image from 'next/image'; 
 
 
 const Projects = () => {
@@ -21,9 +22,17 @@ const Projects = () => {
                     {/* <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]"> */}
                     <div className="relative w-full h-full overflow-hidden bg-[#13162d]">
 
-                        <img src="/bg.png" alt="bg-img" />
+                      <Image src="/bg.png" alt="bg-img" fill style={{ objectFit: 'cover' }}/>
                     </div>
-                    <img src={img} alt={title} className="z-10 absolute bottom-0" />
+                    <Image 
+                      src={img} 
+                      alt={title} 
+                      fill 
+                      style={{ 
+                        objectFit: 'contain',
+                        transform: 'rotate(10deg) translateX(10px)'
+                       }} 
+                      className="z-10 absolute bottom-0" />
                 </div>
                 
                 {/* The line-clamp CSS property allows limiting of the contents of a block container to the specified number of lines */}
@@ -41,7 +50,7 @@ const Projects = () => {
                   <div className="flex items-center">
                     {iconLists.map((icon)=>(
                       <div key={icon} className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center">
-                        <img src={icon} alt={icon} className="p-2" color="#CBACF9"/>
+                        <Image src={icon} alt={icon} className="p-2" width={32} height={32} color="#CBACF9"/>
                       </div>
                     ))}
                   </div>
