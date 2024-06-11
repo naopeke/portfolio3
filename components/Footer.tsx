@@ -31,9 +31,16 @@ function Footer() {
         
             <div className="flex items-center md:gap-3 gap-6">
                 {socialMedia.map((profile) =>(
-                    <div key={profile.id} className="flex justify-center items-center w-10 h-10 cursor-pointer">
+                    <a 
+                        key={profile.id} 
+                        className="flex justify-center items-center w-10 h-10 cursor-pointer"
+                        href={profile.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+
                         <Image src={profile.img} alt="icons" width={20} height={20} />
-                    </div>
+                    </a>
                 ))}
             </div>
         </div>

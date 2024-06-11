@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Strengths", link: "#strength" },
     { name: "Contact", link: "#contact" },
   ];
 
@@ -102,7 +102,7 @@ export const navItems = [
     },
     {
       title: "Testing",
-      description: "Jasmine, Mocha, Chai"
+      description: "Jasmine,Karma, Mocha, Chai"
     },
 
   ]
@@ -132,14 +132,6 @@ export const navItems = [
       iconLists: ["/ang.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/naopeke/store-angular",
     },
-    // {
-    //   id: 4,
-    //   title: "Animated Apple Iphone 3D Website",
-    //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    //   img: "/p4.svg",
-    //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    //   link: "https://github.com/adrianhajdin/iphone",
-    // },
   ];
   
 
@@ -179,14 +171,17 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      url: "https://github.com/naopeke"
     },
     {
       id: 2,
       img: "/twit.svg",
+      url: "https://bitbucket.org/naodev"
     },
     {
       id: 3,
       img: "/link.svg",
+      url: "https://www.linkedin.com/in/nao-mukai-205b71207/"
     },
   ];
 

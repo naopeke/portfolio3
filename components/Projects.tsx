@@ -32,7 +32,7 @@ const Projects = () => {
                         objectFit: 'contain',
                         transform: 'rotate(10deg) translateX(10px)'
                        }} 
-                      className="z-10 absolute bottom-0" />
+                      className="z-10 absolute bottom-0 sm:rotate-0 sm:translate-x-0" />
                 </div>
                 
                 {/* The line-clamp CSS property allows limiting of the contents of a block container to the specified number of lines */}
