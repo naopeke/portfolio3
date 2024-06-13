@@ -7,7 +7,7 @@ import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 export function Process(){
 // const Process = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-20" id="projects">
       <h1 className="heading">
         My <span className="text-[#4cceac]">Development </span>Process
       </h1>

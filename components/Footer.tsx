@@ -28,8 +28,6 @@ function Footer() {
                     position="right"
                 />
             </a>
-
-            <a href="/public/cv_nao_mukai(EN).pdf" className="text-white-200 mt-4 cursor-pointer z-10 hover:text-[#4cceac] transition duration-400" download>Download My CV</a>
         </div>
         <div className="flex flex-col justify-between items-center mt-16">
             <p className="text-center text-white-200">© 2024 Nao Mukai</p>
