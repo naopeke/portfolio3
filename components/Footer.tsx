@@ -1,8 +1,11 @@
 import React from 'react'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa'
+import { FaLocationArrow  } from 'react-icons/fa'
 import { socialMedia } from '@/data'
 import Image from 'next/image'; 
+import { FaGithub } from 'react-icons/fa';
+import { TbBrandBitbucket } from "react-icons/tb";
+import { CiLinkedin } from "react-icons/ci";
 
 
 function Footer() {
@@ -25,11 +28,13 @@ function Footer() {
                     position="right"
                 />
             </a>
+
+            <a href="/public/cv_nao_mukai(EN).pdf" className="text-white-200 mt-4 cursor-pointer z-10 hover:text-[#4cceac] transition duration-400" download>Download My CV</a>
         </div>
         <div className="flex flex-col justify-between items-center mt-16">
             <p className="text-center text-white-200">© 2024 Nao Mukai</p>
         
-            <div className="flex items-center md:gap-3 gap-6">
+            <div className="flex items-center md:gap-3 gap-6 z-10">
                 {socialMedia.map((profile) =>(
                     <a 
                         key={profile.id} 
@@ -38,8 +43,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener noreferrer"
                         >
-
-                        <Image src={profile.img} alt="icons" width={20} height={20} />
+                        <profile.icon size={20} className="hover:text-[#4cceac] transition duration-400" />
                     </a>
                 ))}
             </div>

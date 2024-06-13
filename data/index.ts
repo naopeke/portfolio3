@@ -1,3 +1,7 @@
+import { FaGithub } from 'react-icons/fa';
+import { TbBrandBitbucket } from "react-icons/tb";
+import { CiLinkedin } from "react-icons/ci";
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -170,17 +174,17 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      icon: FaGithub,
       url: "https://github.com/naopeke"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      icon: TbBrandBitbucket,
       url: "https://bitbucket.org/naodev"
     },
     {
       id: 3,
-      img: "/link.svg",
+      icon: CiLinkedin,
       url: "https://www.linkedin.com/in/nao-mukai-205b71207/"
     },
   ];
