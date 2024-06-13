@@ -136,6 +136,14 @@ export const navItems = [
       iconLists: ["/ang.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/naopeke/store-angular",
     },
+    {
+      id: 4,
+      title: "Chat App",
+      des: "Real-time connection, full-fledged chat app built with Firebase (Auth and Firestore)",
+      img: "/p3.png",
+      iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/fireb.svg"],
+      link: "https://github.com/naopeke/react-chatapp2",
+    },
   ];
   
 
