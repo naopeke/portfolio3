@@ -106,7 +106,7 @@ export const navItems = [
     },
     {
       title: "Other Tools",
-      description: "Figma, Firebase, Jira, BitBucket, XRay, TestRail, Testlink"
+      description: "Jira, BitBucket, XRay, TestRail, Testlink, Figma, Firebase"
     },
   ]
   
