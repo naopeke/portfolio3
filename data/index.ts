@@ -85,12 +85,16 @@ export const navItems = [
 
   export const technologies = [
     {
+      title: "Testing",
+      description: "Playwright, Jest, Postman"
+    },
+    {
       title: "Front-End",
       description: "Angular, HTML, CSS, SASS, JavaScript, TypeScript, React, Bootstrap, Tailwind, Angular Material, Swiper, Stripe",
     },
     {
       title: "Back-End",
-      description: "Node.js, Express,js",
+      description: "Node.js, Express.js",
     },
     {
       title: "Database",
@@ -98,17 +102,12 @@ export const navItems = [
     },
     {
       title: "Deployment",
-      description: "Amazon Web Services, "
+      description: "Amazon Web Services, Aiven, Vercel"
     },
     {
       title: "Other Tools",
-      description: "Figma, Firebase, Jira, BitBucket, XRay, "
+      description: "Figma, Firebase, Jira, BitBucket, XRay, TestRail, Testlink"
     },
-    {
-      title: "Testing",
-      description: "Playwright, Jest, Postman, TestRail, Testlink"
-    },
-
   ]
   
   export const projects = [
