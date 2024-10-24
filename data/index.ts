@@ -90,7 +90,7 @@ export const navItems = [
     },
     {
       title: "Back-End",
-      description: "Node.js, Express,js, Postman",
+      description: "Node.js, Express,js",
     },
     {
       title: "Database",
@@ -102,11 +102,11 @@ export const navItems = [
     },
     {
       title: "Other Tools",
-      description: "Figma, Firebase, Jira, BitBucket"
+      description: "Figma, Firebase, Jira, BitBucket, XRay, "
     },
     {
       title: "Testing",
-      description: "Jasmine,Karma, Mocha, Chai"
+      description: "Playwright, Jest, Postman, TestRail, Testlink"
     },
 
   ]
