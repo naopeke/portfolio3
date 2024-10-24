@@ -32,7 +32,7 @@ function Hero() {
             words="Functional and user-friendly web design that delights and inspires"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
-            Hi, I am Nao, a QA tester (Manual / Automation) based in Spain
+          Hi, I am Nao, a QA Engineer specializing in Manual and Automation testing, based in Spain.
           </p>
           < AnimatedTooltipPreview />
           <a href="#projects">
